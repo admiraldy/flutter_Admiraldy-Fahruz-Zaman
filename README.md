@@ -1,2 +1,2 @@
-# flutter_Admiraldy_Fahruz_Zaman
-tugas alterra
+# Pengumpulan Tugas Flutter Alterra Academy
+Admiraldy Fahruz Zaman
