@@ -2,7 +2,7 @@ void main(){
   List nilai = [7, 5, 3, 5, 2, 1];
   int hasilRatarata = jumlahRatarata(nilai);
 
-  print(hasilRatarata);
+  print("rata-rata dari $nilai adalah $hasilRatarata");
 }
  int jumlahRatarata(List nilai){
   double totalRatarata = 0;
