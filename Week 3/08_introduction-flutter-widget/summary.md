@@ -1,0 +1,5 @@
+# (8) Introduction Flutter Widget
+
+1. Flutter merupakan pengembangan antarmuka untuk membuat aplikasi mobile,desktop dan web.
+2. Terdapat 2 jenis widget yang ada pada flutter yaitu Stateless dan Stateful Widget. *Stateless Widget* merupakan widget yang tidak berubah dan hanya fokus pada tampilan, sedangkan *Stateful Widget* merupakan widget yang dapat merubah tampilan dengan merespons perubahan dalam data atau input dari pengguna.
+3. Flutter memiliki built in widget seperti *MaterialApp*, *Scafffold*, *AppBar*, dan *Text*. *MaterialApp* digunakan sebagai inti atau root dari aplikasi flutter dan hanya membutuhkan satu material app pada aplikasi. *Scaffold* digunakan untuk membuat halaman pada aplikasi. *AppBar* merupakan elemen dari Scaffold yang digunakan untuk membuat app bar dalam aplikasi. *Text* merupakan widget untuk menampilkan text.
