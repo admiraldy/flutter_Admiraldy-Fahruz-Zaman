@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:praktikum/details.dart';
-import 'package:praktikum/home.dart';
+import 'package:praktikum/page/contact_page.dart';
+import 'package:praktikum/page/gallery_page.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -14,13 +15,12 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: const ColorScheme.light(),
-        useMaterial3: true,
       ),
-      // home: const MyHomePage(),
+      // home: const GalleryPage(),
       initialRoute: '/',
       routes: {
-        '/': (context) => const MyHomePage(),
-        '/details': (context) => DetailsPage()
+        '/' : (context) => const ContactPage(),
+        '/gallery': (context) => const GalleryPage(),
       },
     );
   }
